@@ -2,6 +2,8 @@
 
 A tour through Go (golang).
 
+For [Spartakiade 2019](https://twitter.com/spartakiade_org), 2019-04-27, Alte Börse Marzahn, Berlin.
+
 ## Outline
 
 * Welcome, intro, installation (30) &mdash; [Slides](Slides.md)

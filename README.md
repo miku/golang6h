@@ -1,4 +1,4 @@
-# Go in six hours
+# Go in ~ six hours
 
 A tour through Go (golang).
 

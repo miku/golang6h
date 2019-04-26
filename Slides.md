@@ -260,6 +260,11 @@ $ go build -o app someproject/cmd/main.go
 $ go vet
 ```
 
+# Go docs 
+
+* https://golang.org/doc/ (documents)
+* https://godoc.org/ (package search and documentation)
+
 # The Go Tour
 
 Let's go through the Go tour together. You can use the [online version](https://tour.golang.org) or install it locally.

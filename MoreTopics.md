@@ -24,6 +24,13 @@ http.HandleFunc("/bar", func(w http.ResponseWriter, r *http.Request) {
 log.Fatal(http.ListenAndServe(":8080", nil))
 ```
 
+# The IO interfaces
+
+* io.Reader
+* io.Writer
+
+Small interfaces, can be combined.
+
 # Working with JSON and XML
 
 * struct tags

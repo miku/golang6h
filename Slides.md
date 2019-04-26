@@ -167,4 +167,78 @@ support for [testing](https://code.visualstudio.com/docs/languages/go#_test),
 Much of the functionality wrapped into editor plugins is available as
 standalong tools. Golang has been created with tools in mind.
 
-# 
+# Workspace, GOPATH and modules
+
+Up to Go 1.11, all code had to live in $GOPATH, defaults to $HOME/go with a conventional structure:
+
+```
+$ tree -L 2 -d $HOME/go 
+/home/tir/go
+├── bin
+├── pkg
+│   ├── linux_amd64
+│   └── mod
+└── src
+    ├── cloud.google.com
+    ├── github.com
+    ├── gitlab.com
+    ├── golang.org
+    ├── gonum.org
+    ├── google.golang.org
+    ├── go.opencensus.io
+    ├── gopkg.in
+    ├── honnef.co
+    ├── mvdan.cc
+    └── rsc.io
+
+16 directories
+``` 
+
+Example source structure:
+
+```
+$ tree -L 2 -d "$HOME/go/src/mvdan.cc"
+/home/tir/go/src/mvdan.cc
+├── sh
+│   ├── cmd
+│   ├── expand
+│   ├── fileutil
+│   ├── interp
+│   ├── _js
+│   ├── shell
+│   └── syntax
+└── xurls
+    ├── cmd
+    └── generate
+
+11 directories
+```
+
+From Go 1.11 on, we have experimental Go modules. Modules allow to write and maintain Go code anywhere (outside GOPATH) and also includes dependency management.
+
+The design documents are available at:
+
+* [https://research.swtch.com/vgo](https://research.swtch.com/vgo)
+* [Single PDF](https://github.com/miku/gomodintro/blob/master/vgo-all.pdf)
+* [gomodintro](https://github.com/miku/gomodintro), some slides from [GOCNL](https://www.meetup.com/Leipzig-Golang-and-Cloud/)
+
+# The Go Tour
+
+Let's go through the Go tour together. You can use the [online version](https://tour.golang.org) or install it locally.
+
+```
+$ git clone git@github.com:golang/tour.git
+$ cd tour
+$ go build
+$ ./tour
+```
+
+
+It contains a [list of sections](https://tour.golang.org/list) with about 95 units and exercises:
+
+* https://tour.golang.org/basics (17)
+* https://tour.golang.org/flowcontrol (14)
+* https://tour.golang.org/moretypes (27)
+* https://tour.golang.org/methods (26)
+* https://tour.golang.org/concurrency (11)
+

@@ -11,3 +11,8 @@ For [Spartakiade 2019](https://twitter.com/spartakiade_org), 2019-04-27, Alte BÃ
 * Additional topics (IO, web) (30) &mdash; [MoreTopics](MoreTopics.md)
 * Wrap up exercise (60) &mdash; [Exercises](Exercises.md)
 
+## Running the tour locally
+
+```
+$ 
+```

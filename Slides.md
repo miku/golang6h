@@ -4,6 +4,17 @@
 * Spartakiade 2019-04-27, 10:00, Berlin, Alte Börse Marzahn
 * Martin Czygan - gh/miku, @cvvfj, martin.czygan@gmail.com
 
+# About me
+
+* Software developer at [Leipzig University Library](http://ub.uni-leipzig.de/)
+* Co-Author of Getting Started with Python Data Analysis (2015)
+* Gopher since 2013
+* Since 2019 Co-Host of [Go and Cloud Native Meetup Leipzig](https://golangleipzig.space/)
+
+# About you
+
+* ...
+
 # Go: A timeline of events
 
 * [The Go programming language](https://www.youtube.com/watch?v=rKnDgT73v8s), November 2009

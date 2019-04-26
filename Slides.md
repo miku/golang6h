@@ -48,8 +48,8 @@ Rationale: Stable foundation - to build stuff on top.
 * Tools (go, godoc, go vet, gofmt, goimports, ... under active development)
 * Ecosystem (external packages, conferences, user groups, and much more)
 
-The current release is [Go 1.11](https://blog.golang.org/go1.11) from 24 August
-2018.
+The current release is [Go 1.12](https://blog.golang.org/go1.12) from 25 February
+2019.
 
 # Origins and influences
 

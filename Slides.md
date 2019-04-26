@@ -1,5 +1,6 @@
 # Welcome
 
+* Introduction to Go
 * Spartakiade 2019-04-27, 10:00, Berlin, Alte Börse Marzahn
 * Martin Czygan - gh/miku, @cvvfj, martin.czygan@gmail.com
 

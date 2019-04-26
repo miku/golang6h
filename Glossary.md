@@ -1,3 +1,0 @@
-# Value type
-
-# Structural Typing

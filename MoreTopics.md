@@ -34,7 +34,7 @@ Small interfaces, can be combined.
 # Working with JSON and XML
 
 * struct tags
-* struct generators
+* struct generators (some slides for a [lightning talk](https://gist.github.com/miku/39e4273d15abfd7e4297071338da3349))
 
 # Working with SQL
 
@@ -47,4 +47,3 @@ Small interfaces, can be combined.
 # More on tooling
 
 * [Go tooling examples](https://www.alexedwards.net/blog/an-overview-of-go-tooling)
-

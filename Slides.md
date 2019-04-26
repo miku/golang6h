@@ -18,7 +18,7 @@ the Future of Go Programs](https://golang.org/doc/go1compat):
 
 > It is intended that programs written to the Go 1 specification will continue
 > to compile and run correctly, unchanged, over the lifetime of that
-> specification. 
+> specification.
 
 In Spring 2016, Brad Fitzgerald gave a talk: [Go 1.6: Asymptotically
 approaching boring](https://www.youtube.com/watch?v=4Dr8FXs9aJM)
@@ -172,7 +172,7 @@ standalong tools. Golang has been created with tools in mind.
 Up to Go 1.11, all code had to live in $GOPATH, defaults to $HOME/go with a conventional structure:
 
 ```
-$ tree -L 2 -d $HOME/go 
+$ tree -L 2 -d $HOME/go
 /home/tir/go
 ├── bin
 ├── pkg
@@ -192,7 +192,7 @@ $ tree -L 2 -d $HOME/go
     └── rsc.io
 
 16 directories
-``` 
+```
 
 Example source structure:
 
@@ -228,7 +228,7 @@ The go allows to work with various aspects of the software lifecycle.
 
 * https://golang.org/doc/cmd
 
-> There is a suite of programs to build and process Go source code. Instead of being run directly, programs in the suite are usually invoked by the go program. 
+> There is a suite of programs to build and process Go source code. Instead of being run directly, programs in the suite are usually invoked by the go program.
 
 The `go` command can do quite a few things.
 
@@ -245,7 +245,7 @@ $ go run myfile.go # package main
 
 $ go build -o app someproject/cmd/main.go
 
-$ go vet 
+$ go vet
 ```
 
 # The Go Tour

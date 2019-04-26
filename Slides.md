@@ -222,6 +222,32 @@ The design documents are available at:
 * [Single PDF](https://github.com/miku/gomodintro/blob/master/vgo-all.pdf)
 * [gomodintro](https://github.com/miku/gomodintro), some slides from [GOCNL](https://www.meetup.com/Leipzig-Golang-and-Cloud/)
 
+# Minimal Go tooling
+
+The go allows to work with various aspects of the software lifecycle.
+
+* https://golang.org/doc/cmd
+
+> There is a suite of programs to build and process Go source code. Instead of being run directly, programs in the suite are usually invoked by the go program. 
+
+The `go` command can do quite a few things.
+
+* https://golang.org/cmd/go/
+
+```
+$ go version
+go version go1.12.4 linux/amd64
+
+$ go get github.com/miku/golang6h/cmd/hellospartakiade
+$ hellospartakiade # if PATH works out
+
+$ go run myfile.go # package main
+
+$ go build -o app someproject/cmd/main.go
+
+$ go vet 
+```
+
 # The Go Tour
 
 Let's go through the Go tour together. You can use the [online version](https://tour.golang.org) or install it locally.
@@ -242,3 +268,17 @@ It contains a [list of sections](https://tour.golang.org/list) with about 95 uni
 * https://tour.golang.org/methods (26)
 * https://tour.golang.org/concurrency (11)
 
+# Wrap up exercise
+
+Think of a small program and try to implement it in Go.
+
+Here are some ideas:
+
+* A program that emits an endless stream of random numbers to standard out.
+* A program that calculates some basic statistics from data read from standard in.
+* A program that fetches a website and measure the time it took.
+* A program that fetches some public API, parses the request body and displays some information (https://api.crossref.org, https://www.vbb.de/broken_lifts.xml, ...)
+* A program that count the number of words in a document.
+* A program that counts the frequency of words in a document.
+* A program that draws an ASCII histogram from frequency data.
+* ...

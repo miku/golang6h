@@ -9,3 +9,5 @@ main.arm: main.go
 main.exe: main.go
 	GOOS=windows GOARCH=amd64 go build -o $@ $<
 
+clean:
+	rm -f main main.arm main.exe

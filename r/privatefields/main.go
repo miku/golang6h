@@ -11,5 +11,4 @@ func main() {
 	// semi.priv undefined (cannot refer to unexported
 	// field or method priv)
 	semi.priv = 10
-
 }

@@ -246,21 +246,39 @@ The `go` command can do quite a few things.
 
 * https://golang.org/cmd/go/
 
+Show go version:
+
 ```
 $ go version
 go version go1.12.4 linux/amd64
+```
 
+Fetch program and run (if PATH is set correctly):
+
+```
 $ go get github.com/miku/golang6h/cmd/hellospartakiade
-$ hellospartakiade # if PATH works out
+$ hellospartakiade
+```
 
-$ go run myfile.go # package main
+Run single file:
 
+```
+$ go run myfile.go
+```
+
+Build binary:
+
+```
 $ go build -o app someproject/cmd/main.go
+```
 
+Check code quality:
+
+```
 $ go vet
 ```
 
-# Go docs 
+# Go docs
 
 * https://golang.org/doc/ (documents)
 * https://godoc.org/ (package search and documentation)

@@ -32,7 +32,7 @@ the Future of Go Programs](https://golang.org/doc/go1compat):
 > to compile and run correctly, unchanged, over the lifetime of that
 > specification.
 
-In Spring 2016, Brad Fitzgerald gave a talk: [Go 1.6: Asymptotically
+In Spring 2016, Brad Fitzpatrick gave a talk: [Go 1.6: Asymptotically
 approaching boring](https://www.youtube.com/watch?v=4Dr8FXs9aJM)
 ([slides](https://docs.google.com/presentation/d/1JsCKdK_AvDdn8EkummMNvpo7ntqteWQfynq9hFTCkhQ/view?slide=id.p)).
 
